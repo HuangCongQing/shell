@@ -4,9 +4,9 @@ shell命令
 
 ### CRLF和 LF的区别
 
-CRLF->Windows-style：Carriage Return & Linefeed，\r\n，表示回车并换行
-CR->Mac Style：Carriage Return，对应ASCII中转义字符\r，表示回车
-LF->Unix Style：Linefeed，对应ASCII中转义字符\n，表示换行
+* CRLF->Windows-style：Carriage Return & Linefeed，\r\n，表示回车并换行
+* CR->Mac Style：Carriage Return，对应ASCII中转义字符\r，表示回车
+* LF->Unix Style：Linefeed，对应ASCII中转义字符\n，表示换行
 
 CRLF表示句尾使用回车换行两个字符(即我们常在Windows编程时使用”\r\n”换行)
 LF表示表示句尾，只使用换行.
