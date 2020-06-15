@@ -2,6 +2,9 @@
 shell命令
 
 
+* Personal Notes:https://www.yuque.com/huangzhongqing/lang/sytx6t
+
+
 ### CRLF和 LF的区别
 
 * CRLF->Windows-style：Carriage Return & Linefeed，\r\n，表示回车并换行
