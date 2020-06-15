@@ -38,8 +38,8 @@ echo ${str:0:2}
 
 # shell数组
 
-array1=(1,2,3,4)
+array1=(1 2 3 4)
 echo $array1
-echo ${array1[1]} # 下标????什么都没有输出
+echo "sdfghj: ${array1[1]}" # 下标????什么都没有输出
 echo ${array1[@]} # 
 
