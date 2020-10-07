@@ -4,7 +4,7 @@
  # @Company(School): UCAS
  # @Date: 2020-10-07 17:18:11
  # @LastEditors: HCQ
- # @LastEditTime: 2020-10-07 19:07:52
+ # @LastEditTime: 2020-10-07 19:19:56
 ### 
 # Shell中的 test 命令用于检查某个条件是否成立，它可以进行数值、字符和文件三个方面的测试。
 
@@ -34,4 +34,13 @@ then
     echo '文件已存在!'
 else
     echo '文件不存在!'
+fi
+
+
+if [ -f "/data/filename" ];then
+  echo "文件存在"
+  else
+  echo "文件不存在,，已创建"
+  mkdir 08data
+  touch 08data/dockerfile
 fi
