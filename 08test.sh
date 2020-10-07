@@ -1,4 +1,22 @@
+###
+ # @Description: 
+ # @Author: HCQ
+ # @Company(School): UCAS
+ # @Date: 2020-10-07 17:18:11
+ # @LastEditors: HCQ
+ # @LastEditTime: 2020-10-07 19:07:52
+### 
 # Shell中的 test 命令用于检查某个条件是否成立，它可以进行数值、字符和文件三个方面的测试。
+
+# 符号含义：
+
+# 1. eq  （equal的缩写），表示等于为真
+# 2. ne    (not equal的缩写），表示不等于为真
+# 3. gt     (greater than的缩写），表示大于为真
+# 4. ge  （greater&equal的缩写），表示大于等于为真
+# 5. lt    （lower than的缩写），表示小于为真
+# 6. le   （lower&equal的缩写），表示小于等于为真
+
 
 num1=100
 num2=100

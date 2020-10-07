@@ -1,3 +1,4 @@
+#!/bin/bash
 # 04 数组array=(1 2 3)
 # 注意：中间没有逗号，
 
@@ -15,3 +16,7 @@ echo "数组的元素为: ${my_array[@]}"
 # 获取数组长度#   # 号
 echo "数组元素个数为: ${#my_array[*]}"
 echo "数组元素个数为: ${#my_array[@]}"
+
+
+# 开头不加#!bin/bash
+# 报错：./example1.sh: 12: ./example1.sh: Syntax error: "(" unexpected
