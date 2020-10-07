@@ -4,7 +4,7 @@
  # @Company(School): UCAS
  # @Date: 2020-10-07 17:18:11
  # @LastEditors: HCQ
- # @LastEditTime: 2020-10-07 19:01:48
+ # @LastEditTime: 2020-10-07 19:14:52
 ### 
 # 05运算符
 
@@ -26,8 +26,9 @@ echo "两数之和：$var"
 
 a=10
 b=20
-var1=`expr 2 \* 2`
+var1=`expr $a  \* $b`
 echo "a*b =  $var1"
+
 
 if [ $a == $b ]
 then
