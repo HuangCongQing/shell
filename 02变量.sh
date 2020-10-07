@@ -1,3 +1,11 @@
+###
+ # @Description: 
+ # @Author: HCQ
+ # @Company(School): UCAS
+ # @Date: 2020-10-07 17:18:11
+ # @LastEditors: HCQ
+ # @LastEditTime: 2020-10-07 17:37:38
+### 
 
 # 变量
 # $可加可不加，最好带上花括号，帮助解释器识别变量的边界
@@ -16,7 +24,7 @@ unset myUrl
 echo $myUrl
 
 # shell字符串
-str "this is a line"
+str="this is a line"
 # 双引号里可以有变量
 #双引号里可以出现转义字符
 name="hcq"
@@ -34,6 +42,7 @@ echo ${#str}
 
 ## 提取子字符串
 str="123"
+echo "提取子字符串："
 echo ${str:0:2}
 
 # shell数组
