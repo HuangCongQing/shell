@@ -1,3 +1,11 @@
+<!--
+ * @Description: 
+ * @Author: HCQ
+ * @Company(School): UCAS
+ * @Date: 2020-10-07 17:18:11
+ * @LastEditors: HCQ
+ * @LastEditTime: 2020-10-07 17:32:32
+-->
 # shell
 shell命令
 
@@ -17,3 +25,5 @@ LF表示表示句尾，只使用换行.
 
 * [*CRLF和 LF的区别*及转换 (整理)](https://blog.csdn.net/lizhongyu0922/article/details/84284286)
 * [*CRLF*、CR、*LF*详解 ](https://www.jianshu.com/p/b03ad01acd69)
+
+### MIT
