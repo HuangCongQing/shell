@@ -5,7 +5,7 @@
 # 2、参数返回，可以显示加：return 返回，如果不加，将以最后一条命令运行结果，作为返回值。 return后跟数值n(0-255
 
 demoFun(){
-    echo "sdfvbn"
+    echo "这是测试....."
 }
 demoFun  # 么有()
 
@@ -14,9 +14,9 @@ demoFun  # 么有()
 funWithReturn(){
     echo "这个函数会对输入的两个数字进行相加运算..."
     echo "输入第一个数字: "
-    read aNum
+    read aNum   # 输入
     echo "输入第二个数字: "
-    read anotherNum
+    read anotherNum   # 输入
     echo "两个数字分别为 $aNum 和 $anotherNum !"
     return $(($aNum+$anotherNum))
 }
