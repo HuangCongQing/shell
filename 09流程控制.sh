@@ -1,9 +1,19 @@
+###
+ # @Description: 
+ # @Author: HCQ
+ # @Company(School): UCAS
+ # @Date: 2020-10-07 17:18:11
+ # @LastEditors: HCQ
+ # @LastEditTime: 2020-10-08 11:06:20
+### 
 # 09流程控制
 
 # if
 ## 末尾的fi就是if倒过来拼写，后面还会遇到类似的。
 
-if [ $(ps -ef | grep -c "ssh") -gt 1 ]; then echo "true"; fi
+if [ $(ps -ef | grep -c "ssh") -gt 1 ]; then 
+    echo "true"
+fi
 
 a=10
 b=20
