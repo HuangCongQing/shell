@@ -7,4 +7,4 @@
 # 或者使用以下包含文件代码
 # source ./12test.sh
 
-echo "地址：$url"
+echo "地址：$url"   # $url来自12test.sh
