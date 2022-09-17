@@ -3,14 +3,45 @@
  * @Author: HCQ
  * @Company(School): UCAS
  * @Date: 2020-10-07 17:18:11
- * @LastEditors: HCQ
- * @LastEditTime: 2020-10-07 17:32:32
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2022-09-17 18:08:22
 -->
 # shell
 shell命令
 
 
 * Personal Notes:https://www.yuque.com/huangzhongqing/lang/sytx6t
+
+
+
+## 学习小结
+
+1. [01.sh](01.sh)
+1. [02变量.sh](02变量.sh)
+1. [03传递参数.sh](03传递参数.sh)
+1. [04数组.sh](04数组.sh)
+1. [05运算符.sh](05运算符.sh)
+1. [06echo.sh](06echo.sh)
+1. [07printf.sh](07printf.sh)
+1. [08test判断文件目录存在.sh](08test判断文件目录存在.sh)
+1. [09流程控制.sh](09流程控制.sh)
+    * [09-1while.sh](09-1while.sh)
+    * [09-2if案例演练.sh](09-2if案例演练.sh)
+1. [10函数.sh](10函数.sh)
+1. [11输入输出重定向.sh](11输入输出重定向.sh)
+1. [12文件包含.sh](12文件包含.sh)
+1. [13path.sh](13path.sh)
+
+
+
+
+
+## 小功能实现
+
+
+
+
+
 
 
 ### CRLF和 LF的区别
@@ -26,4 +57,10 @@ LF表示表示句尾，只使用换行.
 * [*CRLF和 LF的区别*及转换 (整理)](https://blog.csdn.net/lizhongyu0922/article/details/84284286)
 * [*CRLF*、CR、*LF*详解 ](https://www.jianshu.com/p/b03ad01acd69)
 
-### MIT
+## License
+
+Copyright (c) [双愚](https://github.com/HuangCongQing). All rights reserved.
+
+Licensed under the [MIT](./LICENSE) License.
+
+---
