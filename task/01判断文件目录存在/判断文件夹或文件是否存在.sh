@@ -4,7 +4,7 @@
  # @Company(School): UCAS
  # @Email: 1756260160@qq.com
  # @Date: 2022-09-17 18:19:14
- # @LastEditTime: 2022-09-17 18:27:26
+ # @LastEditTime: 2022-09-18 12:48:12
  # @FilePath: /shell/task/01判断文件目录存在/判断文件夹或文件是否存在.sh
 ### 
 
@@ -23,6 +23,7 @@ fi
 
 if [ ! -f "/data/filename" ];then
   echo "文件不存在"
+  Input=$(yad --width=400 --title="惊喜警告！！！" --text="文件不存在") # must: sudo apt install yad
   else
   rm -f /data/filename
 fi
